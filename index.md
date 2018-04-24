@@ -2,4 +2,4 @@
 
 ### BaiDu-IFE HomeWork  
 
-- [4.24 First HomeWork](https://github.com/colabearwd/colabearwd.github.io/blob/master/4-24.html)
+- [4.24 First HomeWork](https://colabearwd.github.io/4-24.html)
