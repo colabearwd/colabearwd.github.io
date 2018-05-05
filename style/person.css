@@ -6,6 +6,7 @@ body{
     background: black;
     font-size: 16px;
     margin: 10px 5% 0 5%;
+    
 }
 h2{
     font-size: 20px;
@@ -15,6 +16,7 @@ h3{
     font-size: 18px;
 }
 #header,#general,#objective,#skillareas,#history,#awards,#lastModified,#copyright{
+    
     background-color: 	LemonChiffon;
     margin-bottom: 10px;
 }
@@ -44,6 +46,10 @@ h3{
     border: white 3px solid;
     
 }
+a:link {background-color:#B2FF99;}    /* 未被访问的链接 */
+a:visited {background-color:#FFFF85;} /* 已被访问的链接 */
+a:hover {background-color:#FF704D;}   /* 鼠标指针移动到链接上 */
+a:active {background-color:#FF704D;}  /* 正在被点击的链接 */
 #objective{
     float: left;
     width: 58%;
