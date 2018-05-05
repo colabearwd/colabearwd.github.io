@@ -8,8 +8,8 @@
 
 - [4.25 Personal Resume](https://colabearwd.github.io/person.html)
 
-[] 添加渐变条纹
+  [x] 添加渐变条纹
 
 - [5.05 个人简历](https://colabearwd.github.io/person505.html)
 
-[] 添加a链接的link-visited-hover-active效果
+  [x] 添加a链接的link-visited-hover-active效果
