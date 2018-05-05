@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    font-size: 16px;
+    margin: 10px 5% 0 5%;
+}
+h2{
+    font-size: 20px;
+    background: liner-gradient(to right,red,Snow);
+}
+h3{
+    font-size: 18px;
+}
+#header,#general,#objective,#skillareas,#history,#awards,#lastModified,#copyright{
+    background-color: 	LemonChiffon;
+    margin-bottom: 10px;
+}
+.titlebox{
+    color: white;
+    background: -webkit-linear-gradient(right, blue , snow); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left, blue, snow); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left, blue, snow); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to left, blue , snow); /* 标准的语法（必须放在最后） */
+}
+.box{
+    color: white;
+    background: -webkit-linear-gradient(left, blue , snow); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, blue, snow); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, blue, snow); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, blue , snow); /* 标准的语法（必须放在最后） */
+}
+#header{
+    text-align: right;
+    margin-bottom: 10px;
+    
+
+}
+#general{
+    float: right;
+    width: 40%;
+    border: white 3px solid;
+    
+}
+#objective{
+    float: left;
+    width: 58%;
+    border: white 3px solid;
+    
+}
+#skillareas{
+    float: left;
+    width: 58%;
+    border: white 3px solid;
+}
+#history{
+    float: right;
+    width: 40%;
+    border: white 3px solid;
+}
+#awards{
+    float: right;
+    width: 40%;
+    border: white 3px solid;
+}
+.clearfix{
+    clear: both;
+}
+#copyright{
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+     
+}
+p{
+    padding-left: 2em;
+}
+.row{
+    padding-left: 2em;
+}
+ol,ul,li{
+    margin-left: 15px;
+    line-height: 22px;
+}
