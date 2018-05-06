@@ -16,4 +16,4 @@
 
 - [DAY 5&6](https://colabearwd.github.io/person.html)
 
- [x] 更換head里面的链接的style文件，默认为第二版
+  [x] 更換head里面的链接的style文件，默认为第二版
