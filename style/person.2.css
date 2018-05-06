@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: black;
+    font-size: 16px;
+    margin: 10px 5% 0 5%;
+    
+}
+h2{
+    font-size: 20px;
+    
+    /* background: liner-gradient(to right,red,Snow); */
+}
+h3{
+    font-size: 18px;
+}
+#header,#general,#objective,#skillareas,#history,#awards,#lastModified,#copyright{
+    
+    background-color: 	LemonChiffon;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h2{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-bottom:-9999px;padding-bottom:9999px;
+}
+.fr{
+    float: right;
+    width: 80%;
+    margin-bottom:-9999px;padding-bottom:9999px;
+    
+}
+#copyright{
+    text-align: center;
+}
