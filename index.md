@@ -17,3 +17,6 @@
 - [DAY 5&6](https://colabearwd.github.io/person.html)
 
   [x] 更換head里面的链接的style文件，默认为第二版
+
+- [一丝 大神的解答(经典)](https://www.zhihu.com/question/19915431)
+- [一丝 大神的样例](http://www.iyunlu.com/demo/enclosing-float-and-clearing-float/index.html)
