@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>title-name</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: aqua;
+            width: 100%;
+            height: 50px;
+        }
+
+        #container {
+            height: 200px;
+            padding: 0 150px 0 200px;
+
+        }
+
+        #footer {
+            background-color: blueviolet;
+            width: 100%;
+            height: 50px;
+        }
+
+        .middle {
+            background-color: green;
+            width: 100%;
+            float: left;
+        }
+
+        .left {
+            background-color: red;
+            width: 200px;
+            float: left;
+
+            margin-left: -100%;
+            position: relative;
+            left: -200px;
+        }
+
+        .right {
+            background-color: blue;
+            width: 150px;
+            float: left;
+
+            margin-left: -150px;
+            position: relative;
+            right: -150px;
+        }
+
+        .middle,
+        .left,
+        .right {
+            height: 200px;
+        }
+    #part1{
+        width: 50%;
+        float: left;
+    }
+    #part2{
+        width: 50%;
+        float: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h2>Header</h2>
+    </div>
+    <div id="container">
+        <div class="middle">
+            <h2>middle</h2>
+        </div>
+        <div class="left">
+            <h2>left</h2>
+        </div>
+        <div class="right">
+            <h2>right</h2>
+        </div>
+    </div>
+    <div id="footer">
+        <h2>footer</h2>
+    </div>
+    <div>
+        <div id="part1">
+        <h3>双飞燕，圣杯布局</h3>
+        <h4>1.首先规规划出 html结构</h4>
+
+        <xmp>
+                <div id="header"><h2>Header</h2></div>
+                    <div id="container">
+                        <div class="middle"><h2>middle</h2></div>
+                        <div class="left"><h2>left</h2></div>
+                        <div class="right"><h2>right</h2></div>
+                    </div>
+                <div id="footer"><h2>footer</h2></div>
+        </xmp>
+
+        <h4>2.给每个盒子样式</h4>
+
+        <xmp>
+                * { margin: 0; padding: 0;}
+        
+                #header {background-color: aqua;width: 100%;height: 50px;}
+                #container {height: 200px;padding: 0 150px 0 200px;}
+                #footer {background-color: blueviolet; width: 100%;height: 50px;}
+
+                .middle {background-color: green;width: 100%;float: left;}
+                .left {background-color: red;width: 200px;float: left;}
+                .right {background-color: blue;width: 150px;float: left;}
+        
+                .middle , .left , .right {height: 200px;}
+        </xmp>
+    </div>
+    <div id="part2">
+        <h4>3.negative margin 方法</h4>
+        <h5>左边盒子</h5>
+        <xmp>.left设置margin-left；-100%</xmp>
+        <h5>右边盒子</h5>
+        <xmp>.right设置margin-left：-150px</xmp>
+        <h5>*此时左右两侧的盒子是会挡住中间盒子的文字的</h5>
+
+        <h4>4.解决 小问题</h4>
+        <h5>在容器添加属性，把左右两边的盒子宽度留出来</h5>
+        <xmp>#container里面设置padding：0 150px 0 -200px</xmp>
+        <xmp>上右下左的顺序</xmp>
+        <h5>让左右盒子回到应该的位置</h5>
+        <xmp>.left 设置 position: relative; left:  -200px;</xmp>
+        <xmp>.right设置 position: relative; right: -150px;</xmp>  
+    </div>
+    </div>
+</body>
+
+</html>
