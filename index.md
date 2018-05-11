@@ -28,4 +28,7 @@
   [x] 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化    
   [x] 实现一个三栏布局，左侧固定宽度，中间固定宽度，右侧根据浏览器宽度变化而自适应变化    
 
+- [7 种方法的 左  右 布局](https://colabearwd.github.io/7-method-LR-layout/index.md)
+
+- [3 种方法的 左中右 布局](https://colabearwd.github.io/3-method-LCR-layout/index.md)
 
