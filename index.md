@@ -30,5 +30,9 @@
 
 - [7 种方法的 左  右 布局](https://colabearwd.github.io/7-method-LR-layout/)
 - [3 种方法的 左中右 布局](https://colabearwd.github.io/3-method-LCR-layout/)
-- [双飞燕 圣杯 布局](https://colabearwd.github.io/task78/holy-layout.html)
-- [DAY 7&8 作业效果](https://colabearwd.github.io/task78/index.html)
+- [双飞燕 圣杯 布局](https://colabearwd.github.io/task_6_78/holy-layout.html)
+- [DAY 7&8 作业效果](https://colabearwd.github.io/task_6_78/index.html)
+
+- [Task7 新网页布局](https://colabearwd.github.io/task_7_911/index.html)
+
+- [Task9 JS的起步](https://colabearwd.github.io/task_9_16/index.html)
