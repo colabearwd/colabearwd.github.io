@@ -16,7 +16,7 @@ h3{
     margin: 0px;
     padding: 0px
 }
-#general,#objective,#skillareas,
+#hellotab,#general,#objective,#skillareas,
 #history,#awards,#lastModified{
     
     background-color: yellowgreen;
@@ -28,7 +28,7 @@ h3{
     
 }
 
-#general,#objective,#skillareas,
+#hellotab,#general,#objective,#skillareas,
 #history,#awards,#lastModified{
     float: right;
     width:79%;

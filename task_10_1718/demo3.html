@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">    
+    <title>IFE ECMAScript</title>
+</head>
+<body>        
+    <input id="dec-number" type="number" placeholder="输入一个十进制非负整数">
+    <input id="bin-bit" type="number" placeholder="输入转化后二进制数字位数">
+    <button id="trans-btn" >转化为二进制</button>
+    <p>运算结果</p>
+    <p id="result"></p>
+    <script>
+
+document.getElementById("trans-btn").onclick = function (){
+    var decNumber = parseInt(document.getElementById("dec-number").value);
+    var binNumber = parseInt(document.getElementById("bin-bit").value);
+    // console.log(x);
+
+    if( decNumber >= 0)
+    {
+        var temp = decNumber; 
+        var arr = new Array();
+        for(var i = 0; 1; i++){
+            if(temp/2 >= 1){
+                arr[i] = temp % 2;
+                temp = parseInt(temp/2);
+                // temp = num/2;
+            }else{
+                arr[i] = 1;
+                break;
+            }
+        }
+        var length = arr.length;
+        if (length > binNumber){
+            console.log("too little !");
+        }else if (length == binNumber)
+        {   
+            console.log("it's correct !");
+        }else{
+            console.log("it's too big !");
+            for(var i = length ; i <= (binNumber+1) ;i++)
+            {
+                arr[i++] = '0';
+            }
+        }
+        arr.reverse();
+        console.log(arr.join(""));
+        document.getElementById("result").innerHTML = arr.join("");
+    }
+    else{
+        console.log("the number must be biger than zero !!!");
+    }
+}
+
+
+
+    </script>
+</body>
+</html>

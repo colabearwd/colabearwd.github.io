@@ -13,6 +13,43 @@
         <h1 id="title" class="titlebox">个 人 简 历        </h1> 
     </div>
 <div id="floatright">  
+    <div id="hellotab">
+        <p id="hellotext"></p>
+    </div>
+    <script>
+    var myDate = new Date();
+    myDate.getFullYear();
+    myDate.getMonth();
+    myDate.getDate();
+    myDate.toLocaleDateString();
+    var time = myDate.toString();
+    var timearr = time.split(' ');
+    var timeday = timearr[4];
+    var timedayarr = timeday.split(':');
+
+    console.log(myDate.getFullYear() , myDate.getMonth() , myDate.getDate());
+    console.log(myDate.toLocaleDateString());
+    console.log(myDate.toLocaleTimeString());
+    console.log(myDate);
+    console.log(timearr);
+    console.log(timedayarr);
+
+    if(timedayarr[0] > 0 && timedayarr[0] < 6){
+        console.log("凌晨好！");
+        document.getElementById("hellotext").innerHTML = "凌晨好！";
+    }else if(timedayarr[0] > 6 && timedayarr[0] < 12){
+        console.log("上午好！");
+        document.getElementById("hellotext").innerHTML = "上午好！";
+    }else if(timedayarr[0] > 12 && timedayarr[0] < 18){
+        console.log("下午好！");
+        document.getElementById("hellotext").innerHTML = "下午好！";
+    }else if(timedayarr[0] > 18 && timedayarr[0] < 24){
+        console.log("晚上好！");
+        document.getElementById("hellotext").innerHTML = "晚上好！";
+    }
+
+
+    </script>
     <div id="general"> 
         <div class="fl">
         <h2 class="box">#个人信息</h2>
