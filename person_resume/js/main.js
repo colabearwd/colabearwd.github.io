@@ -22,25 +22,57 @@
 		return false;
 	});
 
-	$(".main-menu a.aboutbutton").click(function(){
+	$(".main-menu a.basicbutton").click(function(){
 		$("#menu-container .content").slideUp('slow');
-		$("#menu-container .about-section").slideDown('slow');
+		$("#menu-container .basic-section").slideDown('slow');
+		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
+		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
+		return false;
+	});
+
+	$(".main-menu a.edubutton").click(function(){
+		$("#menu-container .content").slideUp('slow');
+		$("#menu-container .edu-section").slideDown('slow');
+		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
+		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
+		return false;
+	});
+
+	$(".main-menu a.honoebutton").click(function(){
+		$("#menu-container .content").fadeOut();
+		$("#menu-container .honor-section").slideDown('slow');
+		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
+		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
+		return false;
+	});
+
+	$(".main-menu a.researchbutton").click(function(){
+		$("#menu-container .content").fadeOut();
+		$("#menu-container .research-section").slideDown('slow');
 		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
 		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
 		return false;
 	});
 
 	$(".main-menu a.projectbutton").click(function(){
-		$("#menu-container .content").slideUp('slow');
-		$("#menu-container .gallery-section").slideDown('slow');
+		$("#menu-container .content").fadeOut();
+		$("#menu-container .project-section").slideDown('slow');
 		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
 		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
 		return false;
 	});
 
-	$(".main-menu a.contactbutton").click(function(){
+	$(".main-menu a.internbutton").click(function(){
 		$("#menu-container .content").fadeOut();
-		$("#menu-container .contact-section").slideDown('slow');
+		$("#menu-container .intern-section").slideDown('slow');
+		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
+		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
+		return false;
+	});
+
+	$(".main-menu a.skillbutton").click(function(){
+		$("#menu-container .content").fadeOut();
+		$("#menu-container .skill-section").slideDown('slow');
 		$(".logo-top-margin").animate({marginTop:'0'}, "slow");
 		$(".logo-top-margin").animate({marginLeft:'0'}, "slow");
 		return false;

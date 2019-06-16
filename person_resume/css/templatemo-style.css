@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5 {
 #nav a {
   display: block;
   width: 170px;
-  height: 170px;
+  height: 70px;
   text-align: center;
   color: white;
   font-size: 18px;
@@ -388,26 +388,35 @@ h1, h2, h3, h4, h5 {
   margin-bottom: 30px;
 }
 #nav i {
-  padding-top: 50px;
+  padding-top: 10px;
   display: block;
   font-size: 36px;
   margin-bottom: 10px;
 }
 
 .homebutton {
-  background: #207d59;
+  background: #c0362c;
 }
-
-.aboutbutton {
-  background: #3b5b8e;
+.basicbutton{
+  background: #ff9642;
 }
-
-.projectbutton {
-  background: #5c9faf;
+.edubutton{
+  background: #816c5b;
 }
-
-.contactbutton {
-  background: #b85b53;
+.honoebutton{
+  background: #668d3c;
+}
+.researchbutton{
+  background: #b1dda1;
+}
+.projectbutton{
+  background: #0097ac;
+}
+.internbutton{
+  background: #3cd6e6;
+}
+.todobutton{
+  background: #06c2f4;
 }
 
 .logo-top-margin {
@@ -521,12 +530,13 @@ h1, h2, h3, h4, h5 {
 }
 .about-social li {
   display: inline-block;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
 }
 .about-social a {
-  width: 42px;
-  height: 42px;
-  line-height: 42px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  font-size: large;
   text-align: center;
   color: #333333;
   background: #dddddd;
